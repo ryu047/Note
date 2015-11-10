@@ -1,0 +1,8 @@
+<div class="container">
+        <br>
+        <span class="glyphicon glyphicon-th-list"></span>&nbsp;
+        <span class="text-info" id="todo-count"><strong><%= remaining %></strong> <%= remaining === 1 ? 'task' : 'tasks' %> to do</span><br><br>   
+        <% if (completed) { %>
+            <button id="clear-completed" class="btn btn-primary"><span class="glyphicon glyphicon-trash"></span> Clear completed tasks (<%= completed %>)</button>
+        <% } %>
+</div>

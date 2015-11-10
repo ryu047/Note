@@ -1,0 +1,41 @@
+<div class="jumbotron navbar-fixed-top" style="padding-top:12px; padding-bottom:14px">
+        <div class="container text-center">
+            <span class="glyphicon"><h1>Note</h1></span>
+            <p>List your tasks to do!</p>
+            <input size="22px" style="padding: 7px" id="new-todo" placeholder="Add note" autofocus><br><br>
+            <div id="markAll">
+                <input id="toggle-all" type="checkbox"> &nbsp;
+                <small style="font-size:12.5px" class="text-info">Mark all as done</small>
+            </div>
+        </div>
+</div>
+<div class="container" id="main" style="margin-top:20%">
+    <ul id="todo-list"></ul>
+</div>
+<div class="container" id="stat" style="margin-bottom:5%"></div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">About Note App</h4>
+          </div>
+          <div class="modal-body">
+            <p>Simple app created by <a href="https://github.com/ryu047/" target="_blank">Ryu047</a> to list down all your tasks easily.
+                You can mark them complete individually or all at once. Update tasks by clicking on the task note on the wall.  
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="navbar navbar-inverse navbar-fixed-bottom text-center" style="padding-top:10px">
+    <span style="color:lightgrey" class="text-muted"><span class="glyphicon glyphicon-copyright-mark"></span> Written by Ryu047</span>&nbsp;&nbsp;
+    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+        About
+    </button>
+</div>
