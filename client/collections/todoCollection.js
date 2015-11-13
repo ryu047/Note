@@ -8,7 +8,7 @@
     ], function($, _, Backbone, TodoModel){
        
         var TodoCollection = Backbone.Collection.extend({
-            url: 'http://localhost:8888/api/todos',
+            url: '/api/todos',
             model: TodoModel,
             completed: function(){
                 return this.filter(function(todo){

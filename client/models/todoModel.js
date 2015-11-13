@@ -8,7 +8,7 @@
         
         var TodoModel = Backbone.Model.extend({
             idAttribute: '_id',
-            urlRoot: 'http://localhost:8888/api/todos',
+            urlRoot: '/api/todos',
             defaults: {
                 title: '',
                 completed: false
