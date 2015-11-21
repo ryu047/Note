@@ -1,4 +1,4 @@
-An application to note down your tasks.
+A simple application to note down your tasks.
 Requirements: node, mongo.
 To start:
 1. Run "mongod" in terminal to start mongo database.
