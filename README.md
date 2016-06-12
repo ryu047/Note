@@ -1,6 +1,15 @@
+#Note
 An application to note down your tasks.
+
 Requirements: node, mongo.
-To start:
-1. Run "mongod" in terminal to start mongo database.
-2. Run "node server.js" in terminal to start the app.
-3. Go to "localhost:8888" in your browser to start using the app.
+
+**Install App**
+
+1. Clone the repo and cd 'path/to/directory'.
+2. 'npm install'.
+
+**Start App**
+
+1. 'npm run build'.
+2. 'npm start'.
+3. Go to "localhost:8888" in your browser.
