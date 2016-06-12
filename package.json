@@ -2,7 +2,10 @@
   "name"         : "note-app",
   "version"      : "1.0.0",
   "description"  : "App to note down your tasks",
-  "main"         : "server.js",
+  "scripts": {
+    "build": "mongod",
+    "start": "node server.js"
+    },
   "author"       : "Ryu047",
   "dependencies" : {
     "express"    : "~4.7.2",
