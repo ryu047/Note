@@ -14,6 +14,7 @@
             events: {
                 'click .toggle': 'togglecompleted',
                 'keypress .edit': 'updateOnEnter',
+                'click .mark-complete': 'handleMarkComplete'
             },
             
             initialize: function(){
@@ -43,6 +44,10 @@
             
             togglecompleted: function() {
                 this.model.toggle();
+            },
+
+            handleMarkComplete: function(e){
+                $(e.target.children[0]).click();
             },
 
             close: function() {
